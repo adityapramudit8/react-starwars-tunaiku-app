@@ -1,0 +1,20 @@
+.button-see-more{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 177px;
+    background-color: #ffb100;
+    color: #222222;
+    font-weight: bold;
+    width: 81px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.button-see-more p{
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    left: 11px;
+    cursor: pointer;
+
+}

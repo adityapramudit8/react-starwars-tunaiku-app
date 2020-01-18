@@ -6,16 +6,13 @@ export default function Navbar() {
         <Menu inverted>
             <Container>
                 <Link to='/'>
-                    <Menu.Item name="Star Wars Tunaiku App"/>
+                    <Menu.Item style={{color: "#FFDD00"}} name="Star Wars Tunaiku App"/>
                 </Link>
                 <Link to='/movies'>
-                    <Menu.Item name="Movies"/>
-                </Link>
-                <Link to='/people'>
-                    <Menu.Item name="People"/>
+                    <Menu.Item style={{color: "#FFDD00"}} name="Movies"/>
                 </Link>
                 <Link to='/planets'>
-                    <Menu.Item name="Planets"/>
+                    <Menu.Item style={{color: "#FFDD00"}} name="Planets"/>
                 </Link>
             </Container>
         </Menu>
